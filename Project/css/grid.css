@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 960px;
+    margin: 0 auto;
+    min-height: 100vh;
+	background-image: linear-gradient(to right, transparent 20%, rgba(52,73,94,0.3) 20%, rgba(52,73,94,0.3) 80%, transparent 80%),linear-gradient(180deg,transparent 98%, #FC3407 99%);
+	background-size: 80px 1px, 1px 24px;
+}
+
+main{
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    margin-top: 24px;
+    height: 48px;
+}
+
+div{
+    width: 24px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
